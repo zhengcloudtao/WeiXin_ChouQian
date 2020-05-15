@@ -1,0 +1,24 @@
+{
+  "pages":[
+    "pages/login/login",
+ 
+    "pages/chouqian/index/index",
+    "pages/chouqian/newqian/newqian",
+    "pages/chouqian/setqian/setqian",
+    "pages/chouqian/deleteqian/deleteqian",
+    "pages/chouqian/searchroom/searchroom",
+    "pages/chouqian/mainroom/mainroom",
+    "pages/chouqian/seeroom/seeroom"
+
+
+
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

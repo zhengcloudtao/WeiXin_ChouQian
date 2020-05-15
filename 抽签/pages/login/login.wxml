@@ -1,0 +1,16 @@
+<!--pages/user/login/login.wxml-->
+<text>\n</text>
+<text>\n</text>
+<text>\n</text>
+<text>\n</text>
+<text>\n</text>
+<text>\n</text>
+<text>\n</text>
+<text>\n</text>
+<text>\n</text>
+ <button open-type="getUserInfo"  disabled="{{isClick}}" bindgetuserinfo="login"type='success'>
+
+<text wx:if="{{isClick}}"></text> 立即微信授权</button>
+
+
+ 

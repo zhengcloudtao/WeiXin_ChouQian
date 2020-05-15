@@ -1,0 +1,26 @@
+<!--pages/tools/chouqian/croom/croom.wxml-->
+<form bindsubmit="croom" bindreset="formReset">
+<text>\n</text>
+<text>\n</text>
+<view class="center">
+<view  >搜索活动ID:</view>
+<text>\n</text>
+<text>\n</text>
+</view>
+<view class="center">
+<text>\n</text>
+ <input   maxlength="9999" placeholder="        活动ID     " name="rid"  placeholder-style="color:#4169E1" 
+placeholder-class="placeholderStyle" 
+style='box-shadow: 0 0 2rpx 	#272727' />
+</view>
+<text>\n</text>
+<text>\n</text>
+
+<button formType="submit">提交</button>
+</form>
+<text>\n</text>
+<text>\n</text>
+
+
+
+ 

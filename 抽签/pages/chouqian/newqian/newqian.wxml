@@ -1,0 +1,21 @@
+<view class="center">活动名称:</view>
+<view class="center">
+	<input maxlength="10" placeholder="  不能为空" bindinput="checkQuestion" placeholder-style="color:#4169E1" placeholder-class="placeholderStyle" style='box-shadow: 0 0 2rpx 	#272727' />
+</view>
+<text>\n</text>
+<view class="center">活动选项:</view>
+
+<block wx:for="{{lists}}" wx:key="index">
+	<view class="center">
+		<input data-index="{{index}}" placeholder="选项" bindinput='bindKeyInput' placeholder-style="color:#4169E1" placeholder-class="placeholderStyle" style='box-shadow: 0 0 2rpx 	#272727'></input>
+	</view>
+	<text>\n</text>
+</block>
+<view class=" between">
+	<button class='add-li' bindtap='addList' size="mini">添加选项</button>
+
+	<button class='add-li' bindtap='delList' size="mini">删除选项</button>
+</view>
+<text>\n</text>
+
+<button bindtap="ochou">抽签</button>

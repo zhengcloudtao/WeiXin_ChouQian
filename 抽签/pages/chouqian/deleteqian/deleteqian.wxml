@@ -1,0 +1,3 @@
+<!--pages/tools/chouqian/dqian/dqian.wxml-->
+活动ID：{{rid}}
+<button type="danger"  bindtap="dact">删除</button>

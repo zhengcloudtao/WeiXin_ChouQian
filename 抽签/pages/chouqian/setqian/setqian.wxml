@@ -1,0 +1,17 @@
+<!--pages/tools/chouqian/setqian/setqian.wxml-->
+<view wx:for="{{list}}" wx:key="list" >
+
+<view class="center">活动名称:"{{item.qname}}"</view>
+
+<text>\n</text>
+<button data-rid="{{item.rid}}" bindtap="chou">抽签</button>
+
+<text>\n</text>
+<button data-rid="{{item.rid}}" bindtap="viewItem">设置</button>
+<text>\n</text>
+
+
+</view>
+<view class="center">
+<view wx:if='{{list<5 }}' >您尚未创建抽签活动</view>
+</view>

@@ -1,0 +1,19 @@
+<view bindtap="chouqian1">
+	<button>
+		<text>新建抽签</text>
+	</button>
+</view>
+<text>\n</text>
+<text>\n</text>
+<view bindtap="chouqian2">
+	<button>
+		<text>查找抽签</text>
+	</button>
+</view>
+<text>\n</text>
+<text>\n</text>
+<view bindtap="chouqian3">
+	<button>
+		<text>我的抽签</text>
+	</button>
+</view>
